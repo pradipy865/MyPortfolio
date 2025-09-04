@@ -12,8 +12,8 @@ export default function Hero() {
         </h1>
         <p className="max-w-xl text-white/70 leading-relaxed">
           As a tech-savvy student, I build innovative software projects, solve complex problems, and create
-          user‑friendly solutions. I bridge theory and practice through web development and explore new tools to tackle
-          real‑world challenges.
+          user-friendly solutions. I bridge theory and practice through web development and explore new tools to tackle
+          real-world challenges.
         </p>
 
         <div className="flex flex-wrap items-center gap-3">
@@ -54,7 +54,6 @@ export default function Hero() {
         <div className="grid grid-cols-3 gap-6 pt-4">
           <Stat number="6" label="Projects completed" />
           <Stat number="8" label="Technologies Mastered" />
-         
         </div>
       </div>
 
@@ -64,11 +63,13 @@ export default function Hero() {
           <div className="absolute inset-4 rounded-full border-2 border-dashed border-[#22c55e]/70 animate-spin-slow" />
           <div className="absolute inset-8 rounded-full border-2 border-dashed border-[#22c55e]/40 animate-spin-slower" />
           <div className="absolute inset-0 flex items-center justify-center">
-            <div
-              className="h-48 w-48 rounded-full bg-gradient-to-br from-[#1a1f2a] to-[#10131a] shadow-inner"
-              aria-hidden
-            />
-            <span className="sr-only">Portrait placeholder</span>
+            {/* Your photo */}
+           <img
+  src="/Image.jpg"
+  alt="Pradip Yadav"
+  className="h-48 w-48 rounded-full object-cover object-top shadow-inner"
+/>
+
           </div>
         </div>
       </div>
@@ -106,6 +107,7 @@ function LinkedInIcon() {
     </svg>
   )
 }
+
 function GitHubIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
@@ -113,6 +115,7 @@ function GitHubIcon() {
     </svg>
   )
 }
+
 function TwitterIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden>

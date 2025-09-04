@@ -52,9 +52,9 @@ export default function Hero() {
         </div>
 
         <div className="grid grid-cols-3 gap-6 pt-4">
-          <Stat number="10" label="Projects completed" />
+          <Stat number="6" label="Projects completed" />
           <Stat number="8" label="Technologies Mastered" />
-          <Stat number="500" label="Code commits" />
+         
         </div>
       </div>
 

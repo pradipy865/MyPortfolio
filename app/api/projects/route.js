@@ -3,26 +3,21 @@ import { getDb } from "../../../lib/mongodb"
 
 const fallback = [
   {
-    title: "TaskMaster",
+    title: "Medi Quik",
     description: "Full-stack task manager with auth, filters, and real-time updates.",
     tags: ["MERN", "Auth", "Realtime"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/pradipy865/MediWebApp",
+    liveUrl: "https://medi-quick-vk36.vercel.app/",
+     image: "/medi-quik.png", 
   },
   {
-    title: "DevNotes",
-    description: "Markdown notes app with search and tagging.",
+    title: "Chat App",
+    description: "Real time Chat Application",
     tags: ["React", "Express", "MongoDB"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/pradipy865/ChitchatApp",
+    
   },
-  {
-    title: "ShopLite",
-    description: "Minimal e-commerce prototype with cart and checkout.",
-    tags: ["Next.js", "API", "Tailwind"],
-    githubUrl: "#",
-    liveUrl: "#",
-  },
+  
 ]
 
 export async function GET() {
